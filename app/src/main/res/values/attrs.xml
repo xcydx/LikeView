@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MaterialEditText">
+        <attr name="useFloatingLabel" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="LikeView">
+        <attr name="liked" format="boolean"/>
+        <attr name="likeDrawable" format="reference"/>
+        <attr name="unLikeDrawable" format="reference"/>
+        <attr name="likeDuration" format="integer"/>
+        <attr name="currentNum" format="integer"/>
+        <attr name="numPadding" format="dimension"/>
+        <attr name="numTextSize" format="dimension"/>
+        <attr name="numTextColor" format="color"/>
+        <attr name="useShining" format="boolean"/>
+        <attr name="shiningColor" format="color"/>
+        <attr name="shiningOffsetX" format="dimension"/>
+        <attr name="shiningOffsetY" format="dimension"/>
+        <attr name="shiningPointWidth" format="dimension"/>
+        <attr name="shiningPointHeight" format="dimension" />
+        <attr name="shiningExtraAngle" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="LikeView2">
+
+        <attr name="likeDrawable2" format="reference"/>
+        <attr name="unLikeDrawable2" format="reference"/>/>
+    </declare-styleable>
+</resources>
